@@ -17,6 +17,11 @@
     --fonte-inter: 'Inter';
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     background-color: var(--cor1-1);
     font-family: var(--fonte-padrao);
