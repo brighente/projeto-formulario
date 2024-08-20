@@ -39,6 +39,7 @@ header h1{
     font-size: 5em;
     margin-top: 20px;
     color: var(--cor1);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.301);
 }
 
 nav{
@@ -67,7 +68,8 @@ nav > a:hover{
 
 main{
     background-color: white;
-    width: 1100px;
+    min-width: 300px;
+    max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
     padding: 15px;
@@ -89,7 +91,8 @@ main h3{
 }
 
 main section{
-    width: 550px;
+    min-width: 300px;
+    max-width: 550px;
     margin: auto;
     font-size: 1.4em;
     margin-bottom: 30px;
@@ -125,31 +128,34 @@ footer{
     background-color: var(--cor3);
     color: var(--branco);
     padding: 10px;
-    columns: 3;
 }
 
 footer p#logo{
-    margin-left: 30px;
     font-size: 1.5em;
+    margin-left: 10px;
 }
 
 footer p#copy{
     text-align: center;
-    margin-top: 30px;
+    margin: auto;
 }
 
-div#footer-links{
-    text-align: right;
-    
+div#conteudo{
+    width: 100%;
+    columns: 3;
 }
 
-div#footer-links .links{
+p#footer-links{
+    text-align: right;   
+}
+
+p#footer-links .links{
     color: white;
     font-size: 1.5em;
-    margin-right: 30px;
+    margin-right: 15px;
 }
 
-span{
+b{
     color: var(--cor1);
     font-weight: bold;
 }
