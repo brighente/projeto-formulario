@@ -68,7 +68,7 @@ nav > a:hover{
 
 main{
     background-color: white;
-    min-width: 300px;
+    min-width: 320px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
@@ -91,7 +91,7 @@ main h3{
 }
 
 main section{
-    min-width: 300px;
+    min-width: 320px;
     max-width: 550px;
     margin: auto;
     font-size: 1.4em;
@@ -107,6 +107,7 @@ section > article{
     width: 250px;
     font-size: 15px;
     border-radius: 10px;
+    letter-spacing: 1px;
 }
 
 .botao{
